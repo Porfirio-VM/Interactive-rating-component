@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Heebo, sans-serif;
+}
+body{
+    background-color: hsl(216, 12%, 8%)
+}
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.rating_box{
+    background-color: #212933;;
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.head,li{
+    border-radius: 100%;
+    background-color:#262F38;
+    opacity: 0.9;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="submit"] {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+li:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+}
+.selected{
+    background-color: hsl(217, 12%, 63%);
+}
+.triger{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.image{
+   width: 200px; 
+}
+.parraf{
+    width: 200px;
+    color: hsl(25, 97%, 53%);
+    background-color:#262F38;
+    border-radius: 10px;
+}
