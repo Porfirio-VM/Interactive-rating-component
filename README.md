@@ -20,7 +20,7 @@ The users should be able to:
 ## Links
 
 - Solution URL: https://github.com/Porfirio-VM/newsletter-sign-up-with-success-message-main
-- Live Site URL: https://newsletter-sign-up-pjvm.netlify.app
+- Live Site URL: https://interactive-rating-component-pjvm.netlify.app/
 
 ## Built with
 
